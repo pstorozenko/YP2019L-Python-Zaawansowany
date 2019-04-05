@@ -1,0 +1,30 @@
+<html>
+
+    <head>
+        <title>Zajęcia Inceptio</title>
+        <link rel="stylesheet" href="static/styles.css">
+    </head>
+    <body>
+        <div class="box">
+        <h1>Cześć użytkowniku!</h1>
+        <p>Co chciałbyś dziś wyrysować?</p>
+        <div form>
+            <form action = "http://localhost:5000/index" method = "post">
+                <p><input type = "number" name = "x0"/> x0</p>
+                <p><input type = "number" name = "xk" /> xk</p>
+                <p><input type = "text" name = "fun" /> Funkcja</p>
+                <p><input type = "submit" value = "Rysuj " /></p>
+            </form>
+        </div>
+        
+
+        {% if message %}
+        <p>{{message}}</p>
+        {% endif%}
+
+        {% if url %}
+        <div><img src={{url}} alt="Wykresik"></div>
+        {% endif %}
+        </div>
+    </body>
+</html>

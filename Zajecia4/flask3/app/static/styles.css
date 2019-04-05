@@ -1,0 +1,15 @@
+body {
+    font-family: monospace;
+    font-size: 150%;
+    background-color: pink
+}
+input[type=submit] {
+    display: flex;
+    font-size: 16px;
+    background-color: white;
+    font-family: monospace;
+}
+.box {
+    width: 700px;
+    margin: 40px auto;
+}

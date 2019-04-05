@@ -1,3 +1,21 @@
 
 Zajecia1/\.ipynb_checkpoints/
 uczestnicy.txt
+
+*\.vscode/
+
+*/__pycache__/
+
+
+
+Zajecia4/flask3/__pycache__/
+
+Zajecia4/flask3/app/__pycache__/
+
+Zajecia3/\.ipynb_checkpoints/
+
+Zajecia2/funkcje/\.ipynb_checkpoints/
+
+Zajecia2/funkcje/__pycache__/
+
+Zajecia2/\.ipynb_checkpoints/

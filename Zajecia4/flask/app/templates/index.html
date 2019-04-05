@@ -1,0 +1,15 @@
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }}</title>
+        {% else %}
+        <title>Zajęcia Inceptio</title>
+        {% endif %}
+    </head>
+    <body>
+        <h1>Cześć, {{ user.username }}!</h1>
+        {% for spotkanie in zajecia %}
+        <div><p>Temat zajęć: {{ spotkanie.temat }} </br> {{ spotkanie.tresc }}</p></div>
+        {% endfor %}
+    </body>
+</html>
