@@ -6,9 +6,12 @@ Dziś zajmiemy się Flaskiem :)
 
 Jest to popularny mikro-framework służący do robienia małych appek/stron/serwisów webowych.
 
-konsola `ctrl + ` `
+Konsolę otwieramy przez `ctrl + ` `
+
+I tam wpisujemy:
 
 ```
 set FLASK_APP=[nazawa pliku]
 set FLASK_ENV=development
+flask run
 ```
